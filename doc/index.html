@@ -1,79 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
-    <style>
-        /* スタイルシートが不要な場合、インラインスタイルを使用できます */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        strong {
-            font-weight: bold;
-        }
-        p {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progate</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    
-    <p>This Privacy Policy provides information regarding the collection, use, sharing, and storage of user data for [App Name] (hereinafter referred to as the "App"). We recommend that you carefully read and understand this Privacy Policy before using the App.</p>
-
-    <h2>Data Collection and Use</h2>
-    <p><strong>1. Data Collected:</strong> The App may collect the following information:</p>
-    <ul>
-        <li>User account information (such as name, email address)</li>
-        <li>Device information (device model, operating system version, etc.)</li>
-        <li>Usage history (in-app activity, settings, etc.)</li>
-        <li>Location information (only when necessary, e.g., using GPS for location data)</li>
-    </ul>
-
-    <p><strong>2. Purposes of Data Use:</strong> The collected data will be used for the following purposes:</p>
-    <ul>
-        <li>Providing and operating the App</li>
-        <li>Offering user support</li>
-        <li>Managing user accounts</li>
-        <li>Analyzing user activity</li>
-        <li>Enhancing quality and developing new features</li>
-    </ul>
-
-    <h2>Data Sharing</h2>
-    <p><strong>1. Sharing with Third Parties:</strong> The App will not share user data with third parties except in cases where:</p>
-    <ul>
-        <li>User's explicit consent is obtained</li>
-        <li>Legal requirements necessitate information disclosure</li>
-    </ul>
-
-    <h2>Data Storage and Security</h2>
-    <p><strong>1. Data Storage:</strong> Collected data will be stored with appropriate security measures in place.</p>
-    <p><strong>2. Security Measures:</strong> While the App implements security measures to prevent data loss, unauthorized access, alteration, or disclosure, it cannot guarantee 100% security.</p>
-
-    <h2>Privacy Policy Updates</h2>
-    <p><strong>1. Policy Changes:</strong> This Privacy Policy may be revised from time to time. In the event of changes, updated information will be provided, and the revised policy will be made publicly available.</p>
-
-    <h2>Contact Us</h2>
-    <p>If you have any questions or requests regarding privacy, please feel free to contact us at the following address:</p>
-
-    <p>[Contact Information]</p>
-
-    <p>Last Updated: [Last Updated Date]</p>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+      </div>
+      <span class="fa fa-bars menu-icon"></span>
+      <div class="header-right">
+        <a href="#">レッスン</a>
+        <a href="#">新規登録</a>
+        <a href="#" class="login">ログイン</a>
+      </div>
+    </div>
+  </header>
+  <div class="top-wrapper">
+    <div class="container">
+      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
+      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
+      <div class="btn-wrapper">
+        <a href="#" class="btn signup">新規登録はこちら</a>
+        <p>or</p>
+        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
+        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+      </div>
+    </div>
+  </div>
+  <div class="lesson-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>Learn Where to Get Started!</h2>
+      </div>
+      <div class="lessons">
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/html.png">
+            <p>HTML & CSS</p>
+          </div>
+          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+            <p>jQuery</p>
+          </div>
+          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/ruby.png">
+            <p>Ruby</p>
+          </div>
+          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+        </div>
+        <div class="lesson">
+          <div class="lesson-icon">
+            <img src="https://prog-8.com/images/html/advanced/php.png">
+            <p>PHP</p>
+          </div>
+          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="message-wrapper">
+    <div class="container">
+      <div class="heading">
+        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
+        <h3>Let's learn to code, learn to be creative!</h3>
+      </div>
+      <span class="btn message">さっそく開発する</span>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+      <p>Learn to Code, Learn to be Creative.</p>
+    </div>
+  </footer>
 </body>
 </html>
